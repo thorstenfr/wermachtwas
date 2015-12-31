@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.ws-header {
+	/* width: 100vw; */
+}
+
+.ws-header .ws-row {
+	background-color: #AA9739;
+}
+.ws-slogan {
+	float: left;
+	border: 0px solid red;
+	width: 40%;
+	
+}
+.ws-slogan h1 {
+	font-size: 1.2em;
+	text-align: center;
+}
+.ws-nav {
+	float: left;	
+	border: 0px solid grey;
+	width: 60%;
+}
+.ws-nav ul {
+	margin: 15px;	
+
+}
+.ws-nav ul li {
+	display: inline;	
+	
+}
+
+.ws-nav ul li a {
+	text-decoration: none;		
+	font-size: 2.5vw;
+	padding: 0 5px 0 5px;
+	color: #554600;
+
+
+}
+
+.ws-nav ul li a:hover {
+	text-decoration: none;	
+	color: #FFF0AA;
+}
+
+.ws-row:after {
+	content : "";
+	display : block;
+	clear: both;
+}
