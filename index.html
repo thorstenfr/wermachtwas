@@ -5,19 +5,22 @@
 		<meta name="keywords" content="Budget, Haushalt, Familie">
 		<meta name="author" content="Thorsten Freimann">
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/ws-style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/ws-style.css">				
 		<link rel="stylesheet" type="text/css" href="css/paletton.css">
+		<link rel="stylesheet" type="text/css" href="css/unslider.css">
+		<link rel="stylesheet" type="text/css" href="css/unslider-dots.css">
 		<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 		<title>Wer-Macht-Was</title>
 	</head>
 	<body>
-		<header class="ws-header">
+		<header class="ws-header" >
 			<div class="ws-row">
 				<div class="ws-slogan">
-					<h1 class="color-primary-1">Wer-Macht-Was</h1>
+					<h1>Wer-Macht-Was</h1>
 				</div>
 				<nav class="ws-nav">			
-					<ul>
+					<ul >
 						<li><a href="#">Home</a></li>						
 						<li><a href="#">Demo</a></li>
 						<li><a href="#">Kontakt</a></li>
@@ -26,11 +29,31 @@
 				</nav>
 			</div>
 		</header>
-		<section style="display: block;">
-			<h2>Sektion</h2>
-			<p>lala</p>
+		<section class="ws-section">		
+				<div class="ws-sticker"></div>
+				<article>
+					<div class="ws-inhalt">		
+						<div class="ws-gallery">
+							<ul>
+								<li style="background-image: url('images/photos/1.jpg');"></li>
+								<li style="background-image: url('images/photos/2.jpg');"></li>
+								<li style="background-image: url('images/photos/3.jpg');"></li>
+								<li style="background-image: url('images/photos/4.jpg');"></li>
+							</ul>
+						</div>									
+					</div>
+				</article>				
 		</section>
-		<footer>
+		<footer class="ws-footer">
+			<div class="ws-row">
+				<p>Impressum</p>
+			</div>
 		</footer>
+
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/unslider.js"></script> <!-- but with the right path! -->
+		<script>$(function() { $('.ws-gallery').unslider({
+			autoplay: true
+		}) })</script>
 	</body>
 </html>

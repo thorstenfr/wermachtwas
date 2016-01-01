@@ -1,14 +1,21 @@
 * {
     box-sizing: border-box;
     font-family: 'Droid Sans', sans-serif;
+    
 }
 
+body {
+		/* background-image: url("..images/photos/cleaning-1224832-1280x1024.jpg"); */
+}
 .ws-header {
-	/* width: 100vw; */
+	height: 15vh;
+
 }
 
-.ws-header .ws-row {
-	background-color: #AA9739;
+.ws-row {
+	background-color: #6D92A0;
+
+	
 }
 .ws-slogan {
 	float: left;
@@ -17,8 +24,9 @@
 	
 }
 .ws-slogan h1 {
-	font-size: 1.2em;
+	font-size: 2.5vw;
 	text-align: center;
+	/* color: #022735; */
 }
 .ws-nav {
 	float: left;	
@@ -38,18 +46,59 @@
 	text-decoration: none;		
 	font-size: 2.5vw;
 	padding: 0 5px 0 5px;
-	color: #554600;
+	color: #022735; 
 
 
 }
 
 .ws-nav ul li a:hover {
 	text-decoration: none;	
-	color: #FFF0AA;
+	color: #457485;
 }
 
 .ws-row:after {
 	content : "";
 	display : block;
 	clear: both;
+}
+
+.ws-sticker {
+	background: url("../images/Mister-Fantastic-256.png");
+	background-size: 125px 131px;
+    position: absolute;
+	width: 125px;
+	height: 131px;
+	margin-left: 80vw;
+	margin-top: -100px;
+	z-index: 5;
+
+
+}
+
+.ws-inhalt {
+	background-color: black;
+}
+.ws-gallery {
+		padding-top: 10px;		
+		width: 80vw;
+		margin: auto;
+		position: relative; 
+		overflow: auto; 
+}
+
+.ws-gallery li { 
+	list-style: none; 
+	height: 70vh;
+}
+
+.ws-gallery ul {
+	padding: 0;
+	margin: 0;
+}
+
+
+.ws-footer {
+	padding-top: 10px;
+	height: 15vh;
+	
 }
